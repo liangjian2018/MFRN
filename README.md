@@ -41,8 +41,8 @@ def createlblimg(patches,smallbox) is responsible for loading the trained model 
 def recover_imagery(imglist,boxlist_inner,padding_w,padding_h,pathout,finalbox) is responsible for recovering the complete imagery from the segmented patches.
 The workflow0503_PM.py 用于调用训练好的模型预测完整的遥感影像。参数 padding 和 overlap 用于调整滑动窗口的步长。
 def createlblimg(patches,smallbox) 用于调用模型和预测切割好的图块。
-def recover_imagery(imglist,boxlist_inner,padding_w,padding_h,pathout,finalbox) 用于将预测好图块还原为原来的大小。
+def recover_imagery(imglist,boxlist_inner,padding_w,padding_h,pathout,finalbox)  用于将预测好图块还原为原来的大小。
 
 
-If this code is useful for your essay, please cite:
+If this code is useful for your paper, please cite:
 Li, L.; Liang, J.; Weng, M.; Zhu, H. A multiple-feature reuse network to extract buildings from remote sensing imagery. Remote Sensing 2018, 10, 1350.
